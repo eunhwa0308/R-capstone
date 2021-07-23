@@ -1,12 +1,17 @@
-# 데이터 분석 
+# 데이터 분석 및 시각화
 Exploratory Data Analysis (EDA)를 포함한 분석 방법과 결과를 자세히 설명한다.
 
 데이터 분석 및 처리 :엑셀로 각 학과 별 취업률 데이터를 평균 데이터로 만들어 Ground 함수를 사용해 정수형 데이터로 변환함
 
 
-# 임금 데이터 시각화(geom_point,geom_line)----
+##임금 데이터 시각화(geom_point,geom_line)----
 
 ```{r}
+library(ggplot2)
+
+Sys.setlocale("LC_ALL","C")
+salary =  read.csv(file = "C:\\Users\\eunhwa\\Documents\\R-capstone\\salary.csv", header = T, sep=",",encoding = "UTF-8")
+Sys.setlocale("LC_ALL","Korean")
 
 p<-ggplot(data = salary)+
   scale_x_discrete(limits=c("0~50만원", "51~100만원", "101~150만원","151~200만원","201~250만원","251~300만원","301만원 이상","500만원이상")) +
@@ -18,7 +23,7 @@ p + labs(title = "첫 직장 월평균 임금",x = "임금", y = "임금 구간 
 
 ```
 
-# 임금 데이터 시각화(geom_bar)----
+##임금 데이터 시각화(geom_bar)----
 
 ```{r}
 p<-ggplot(salary) +
@@ -28,9 +33,12 @@ p<-ggplot(salary) +
 p + labs(title = "첫 직장 월평균 임금",x = "임금", y = "임금 구간 비율",color ="학과")
 ```
 
-# 만족도 데이터 시각화(geom_point,geom_line)----
+##만족도 데이터 시각화(geom_point,geom_line)----
 
 ```{r}
+Sys.setlocale("LC_ALL","C")
+satisfaction =  read.csv("C:\\Users\\eunhwa\\Documents\\R-capstone\\satisfaction.csv", header = T, sep=",",encoding = "UTF-8")
+Sys.setlocale("LC_ALL","Korean")
 
 g<-ggplot(data = satisfaction)+
   scale_x_discrete(limits=c("매우 불만족", "불만족", "보통","만족","매우 만족")) +
@@ -41,9 +49,10 @@ g + labs(title = "첫 직장 만족도",x = "만족도", y = "만족도 비율",
 
 ```
 
-#만족도 데이터 시각화(geom_bar)------
+##만족도 데이터 시각화(geom_bar)------
 
 ```{r}
+
 
 g<-ggplot(data=  satisfaction, aes(fill=degree_name, y=degree_satis_value, x=satis_name)) +
   scale_fill_brewer(palette = "Set3")+
@@ -53,9 +62,12 @@ g + labs(title = "첫 직장 만족도",x = "만족도", y = "만족도 비율",
 
 ```
 
-#도지 옵션 넣은 남녀 계열별 취업률 시각화 ----
+##도지 옵션 넣은 남녀 계열별 취업률 시각화 ----
 
 ```{r}
+Sys.setlocale("LC_ALL","C")
+female =  read.csv(file = "C:\\Users\\eunhwa\\Documents\\R-capstone\\emp_female.csv", header = T, sep=",",encoding = "UTF-8")
+Sys.setlocale("LC_ALL","Korean")
 
 ggplot(data = female)+
   aes(x = degree_name, y = degree_employ_value,
@@ -73,7 +85,7 @@ ggplot(data = female)+
             fill = '성별') #레이블 지정 
 ```
 
-# dodge 안넣은 버전 취업률 시각화----
+##dodge 안넣은 버전 취업률 시각화----
 ```{r}
 
 ggplot(data = female)+
@@ -87,23 +99,18 @@ ggplot(data = female)+
             colour="white",position=position_dodge(.9), size=3)
 ```
 
-#트리맵을 활용한 취업률 시각화 ---
+##트리맵을 활용한 취업률 시각화 ---
+
+
+
+
+##박스 플롯을 활용한 학과 & 계열별 취업률 시각화 ----
 
 ```{r}
+Sys.setlocale("LC_ALL","C")
+employ_group =  read.csv(file = "C:\\Users\\eunhwa\\Documents\\R-capstone\\employ_group2.csv", header = T, sep=",",encoding = "UTF-8")
+Sys.setlocale("LC_ALL","Korean")
 
-treemap(female, 
-        index = c("degree_name","sex"),
-        vSize = "degree_employ_value",
-        vColor = "degree_employ_value", type = "index",
-        bg.labels = "white",
-        title="남녀 계열별 취업률 데이터", fontfamily.labels="NanumGothic")+
-        theme(plot.title = element_text(hjust = 0.5))
-```
-
-
-#박스 플롯을 활용한 학과 & 계열별 취업률 시각화 ----
-
-```{r}
   ggplot(employ_group,aes(x = group, y = degree_employ_value,fill=group)) +
   geom_point(color = "black") +           # 점 색상 지정
   geom_boxplot(alpha=0.2)+               # 박스플롯 색상 투명도
@@ -115,7 +122,7 @@ treemap(female,
        y = '취업률')    # 레이블과 title 지정 
 ```
 
-#바이올린을 활용한 학과 & 계열별 취업률 시각화 ----
+##바이올린을 활용한 학과 & 계열별 취업률 시각화 ----
 
 ```{r}
 
@@ -130,7 +137,8 @@ treemap(female,
        x = '계열',
        y = '취업률')     # 레이블과 title 지정 
 ```
-# 임금과 만족도 비교-----
+
+## 임금과 만족도 비교-----
 
 ```{r}
 

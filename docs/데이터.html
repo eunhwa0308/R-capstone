@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 데이터 | A Minimal Capstone Report Example</title>
+  <title>Chapter 2 데이터 | 학과별 취업 현황 분석 및 시각화</title>
   <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 데이터 | A Minimal Capstone Report Example" />
+  <meta property="og:title" content="Chapter 2 데이터 | 학과별 취업 현황 분석 및 시각화" />
   <meta property="og:type" content="book" />
   
   
@@ -16,12 +16,12 @@
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 데이터 | A Minimal Capstone Report Example" />
+  <meta name="twitter:title" content="Chapter 2 데이터 | 학과별 취업 현황 분석 및 시각화" />
   
   <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   
 
-<meta name="author" content="김아무개, 이아무개, 박아무개" />
+<meta name="author" content="신은화, 최우진, 최유진" />
 
 
 <meta name="date" content="2021-07-23" />
@@ -120,28 +120,6 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<style type="text/css">
-/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
-</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -160,23 +138,23 @@ div.csl-indent {
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>수업과 팀원 소개</a></li>
-<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> 서론</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> 서론</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#프로젝트-배경"><i class="fa fa-check"></i><b>1.1</b> 프로젝트 배경</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#프로젝트-목적"><i class="fa fa-check"></i><b>1.2</b> 프로젝트 목적</a></li>
+<li class="chapter" data-level="1.3" data-path="intro.html"><a href="intro.html#리포트-개요"><i class="fa fa-check"></i><b>1.3</b> 리포트 개요</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="데이터.html"><a href="데이터.html"><i class="fa fa-check"></i><b>2</b> 데이터</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="데이터.html"><a href="데이터.html#데이터-1"><i class="fa fa-check"></i><b>2.1</b> 데이터</a></li>
+<li class="chapter" data-level="2.1" data-path="데이터.html"><a href="데이터.html#첫-직장-임금-데이터"><i class="fa fa-check"></i><b>2.1</b> 첫 직장 임금 데이터</a></li>
 <li class="chapter" data-level="2.2" data-path="데이터.html"><a href="데이터.html#data-dictionary"><i class="fa fa-check"></i><b>2.2</b> Data Dictionary</a></li>
+<li class="chapter" data-level="2.3" data-path="데이터.html"><a href="데이터.html#첫-직장-만족도-데이터"><i class="fa fa-check"></i><b>2.3</b> 첫 직장 만족도 데이터</a></li>
+<li class="chapter" data-level="2.4" data-path="데이터.html"><a href="데이터.html#data-dictionary-1"><i class="fa fa-check"></i><b>2.4</b> Data Dictionary</a></li>
+<li class="chapter" data-level="2.5" data-path="데이터.html"><a href="데이터.html#첫-직장-취업률-데이터"><i class="fa fa-check"></i><b>2.5</b> 첫 직장 취업률 데이터</a></li>
+<li class="chapter" data-level="2.6" data-path="데이터.html"><a href="데이터.html#data-dictionary-2"><i class="fa fa-check"></i><b>2.6</b> Data Dictionary</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="데이터-분석.html"><a href="데이터-분석.html"><i class="fa fa-check"></i><b>3</b> 데이터 분석</a>
-<ul>
-<li class="chapter" data-level="3.1" data-path="데이터-분석.html"><a href="데이터-분석.html#math-example"><i class="fa fa-check"></i><b>3.1</b> Math example</a></li>
-<li class="chapter" data-level="3.2" data-path="데이터-분석.html"><a href="데이터-분석.html#example-two"><i class="fa fa-check"></i><b>3.2</b> Example two</a></li>
-<li class="chapter" data-level="3.3" data-path="데이터-분석.html"><a href="데이터-분석.html#example-three"><i class="fa fa-check"></i><b>3.3</b> Example three</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="응용-분야-applications.html"><a href="응용-분야-applications.html"><i class="fa fa-check"></i><b>4</b> 응용 분야 (Applications)</a>
-<ul>
-<li class="chapter" data-level="4.1" data-path="응용-분야-applications.html"><a href="응용-분야-applications.html#example-one"><i class="fa fa-check"></i><b>4.1</b> Example one</a></li>
-<li class="chapter" data-level="4.2" data-path="응용-분야-applications.html"><a href="응용-분야-applications.html#example-two-1"><i class="fa fa-check"></i><b>4.2</b> Example two</a></li>
-</ul></li>
+<li class="chapter" data-level="3" data-path="데이터-분석.html"><a href="데이터-분석.html"><i class="fa fa-check"></i><b>3</b> 데이터 분석</a></li>
+<li class="chapter" data-level="4" data-path="응용-분야-applications.html"><a href="응용-분야-applications.html"><i class="fa fa-check"></i><b>4</b> 응용 분야 (Applications)</a></li>
 <li class="chapter" data-level="5" data-path="결론.html"><a href="결론.html"><i class="fa fa-check"></i><b>5</b> 결론</a>
 <ul>
 <li class="chapter" data-level="5.1" data-path="결론.html"><a href="결론.html#future-study"><i class="fa fa-check"></i><b>5.1</b> Future Study</a></li>
@@ -194,7 +172,7 @@ div.csl-indent {
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Capstone Report Example</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">학과별 취업 현황 분석 및 시각화</a>
           </h1>
         </div>
 
@@ -204,16 +182,685 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="데이터" class="section level1" number="2">
 <h1><span class="header-section-number">Chapter 2</span> 데이터</h1>
-<p>이 챕터에는 분석을 위해 사용된 데이터에 대해서 설명하고 Data Dictionary를 포함한다.</p>
-<div id="데이터-1" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> 데이터</h2>
+<div id="첫-직장-임금-데이터" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> 첫 직장 임금 데이터</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="데이터.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="st">&quot;LC_ALL&quot;</span>,<span class="st">&quot;C&quot;</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;C&quot;</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="데이터.html#cb3-1" aria-hidden="true" tabindex="-1"></a>salary <span class="ot">=</span>  <span class="fu">read.csv</span>(<span class="at">file =</span> <span class="st">&quot;C:</span><span class="sc">\\</span><span class="st">Users</span><span class="sc">\\</span><span class="st">eunhwa</span><span class="sc">\\</span><span class="st">Documents</span><span class="sc">\\</span><span class="st">R-capstone</span><span class="sc">\\</span><span class="st">salary.csv&quot;</span>, <span class="at">header =</span> T, <span class="at">sep=</span><span class="st">&quot;,&quot;</span>,<span class="at">encoding =</span> <span class="st">&quot;UTF-8&quot;</span>)</span>
+<span id="cb3-2"><a href="데이터.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="st">&quot;LC_ALL&quot;</span>,<span class="st">&quot;Korean&quot;</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;LC_COLLATE=Korean_Korea.949;LC_CTYPE=Korean_Korea.949;LC_MONETARY=Korean_Korea.949;LC_NUMERIC=C;LC_TIME=Korean_Korea.949&quot;</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="데이터.html#cb5-1" aria-hidden="true" tabindex="-1"></a>salary</span></code></pre></div>
+<pre><code>##    degree_name degree year  salary_name salary degree_salary_value
+## 1     공학계열      1 2019     0~50만원   SALA                1.18
+## 2     공학계열      1 2019   51~100만원   SALB                4.23
+## 3     공학계열      1 2019  101~150만원   SALC               14.02
+## 4     공학계열      1 2019  151~200만원   SALD               11.98
+## 5     공학계열      1 2019  201~250만원   SALE                4.32
+## 6     공학계열      1 2019  251~300만원   SALF                1.50
+## 7     공학계열      1 2019 301만원 이상   SALG                1.66
+## 8     공학계열      1 2019  500만원이상   SALH                0.02
+## 9     교육계열      2 2019     0~50만원   SALA                4.12
+## 10    교육계열      2 2019   51~100만원   SALB                7.57
+## 11    교육계열      2 2019  101~150만원   SALC               12.89
+## 12    교육계열      2 2019  151~200만원   SALD               11.33
+## 13    교육계열      2 2019  201~250만원   SALE                4.85
+## 14    교육계열      2 2019  251~300만원   SALF                0.42
+## 15    교육계열      2 2019 301만원 이상   SALG                0.35
+## 16    교육계열      2 2019  500만원이상   SALH                0.00
+## 17    사회계열      3 2019     0~50만원   SALA                1.14
+## 18    사회계열      3 2019   51~100만원   SALB                7.46
+## 19    사회계열      3 2019  101~150만원   SALC               19.94
+## 20    사회계열      3 2019  151~200만원   SALD                9.44
+## 21    사회계열      3 2019  201~250만원   SALE                2.00
+## 22    사회계열      3 2019  251~300만원   SALF                0.75
+## 23    사회계열      3 2019 301만원 이상   SALG                0.72
+## 24    사회계열      3 2019 500만원 이상   SALH                0.00
+## 25  예체능계열      4 2019     0~50만원   SALA                2.56
+## 26  예체능계열      4 2019   51~100만원   SALB               14.64
+## 27  예체능계열      4 2019  101~150만원   SALC               18.57
+## 28  예체능계열      4 2019  151~200만원   SALD                7.63
+## 29  예체능계열      4 2019  201~250만원   SALE                1.33
+## 30  예체능계열      4 2019  251~300만원   SALF                0.36
+## 31  예체능계열      4 2019 301만원 이상   SALG                0.32
+## 32  예체능계열      4 2019 500만원 이상   SALH                0.00
+## 33    의약계열      5 2019     0~50만원   SALA                1.02
+## 34    의약계열      5 2019   51~100만원   SALB                4.11
+## 35    의약계열      5 2019  101~150만원   SALC               15.90
+## 36    의약계열      5 2019  151~200만원   SALD               11.49
+## 37    의약계열      5 2019  201~250만원   SALE                2.73
+## 38    의약계열      5 2019  251~300만원   SALF                1.54
+## 39    의약계열      5 2019 301만원 이상   SALG                1.95
+## 40    의약계열      5 2019  500만원이상   SALH                0.00
+## 41    인문계열      6 2019     0~50만원   SALA                2.94
+## 42    인문계열      6 2019   51~100만원   SALB                9.26
+## 43    인문계열      6 2019  101~150만원   SALC               17.81
+## 44    인문계열      6 2019  151~200만원   SALD                7.83
+## 45    인문계열      6 2019  201~250만원   SALE                2.23
+## 46    인문계열      6 2019  251~300만원   SALF                1.34
+## 47    인문계열      6 2019 301만원 이상   SALG                1.11
+## 48    인문계열      6 2019  500만원이상   SALH                0.00
+## 49    자연계열      7 2019     0~50만원   SALA                2.22
+## 50    자연계열      7 2019   51~100만원   SALB                7.68
+## 51    자연계열      7 2019  101~150만원   SALC               19.99
+## 52    자연계열      7 2019  151~200만원   SALD                8.66
+## 53    자연계열      7 2019  201~250만원   SALE                2.72
+## 54    자연계열      7 2019  251~300만원   SALF                0.75
+## 55    자연계열      7 2019 301만원 이상   SALG                0.57
+## 56    자연계열      7 2019  500만원이상   SALH                0.00</code></pre>
 </div>
 <div id="data-dictionary" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> Data Dictionary</h2>
 <ul>
-<li><p>variable1: describe what variable1 is about</p></li>
-<li><p>variable2: describe what variable2 is about</p></li>
-<li><p>variable3: describe what variable3 is about</p></li>
+<li><p>degree_name: 7가지 계열을 포함하는 변수(공학계열,교육계열,사회계열,예체능계열,의약계열,인문계열,자연계열)</p></li>
+<li><p>salary_name: 월평균 임금을 8구간으로 나눈 변수(0<sub>50만원,51</sub>100만원,101<sub>150만원,151</sub>200만원,201<sub>250만원,251</sub>300만원,301만원 이상,500만원이상)</p></li>
+<li><p>degree_salary_value: 임금 구간 별 비율 변수</p></li>
+</ul>
+</div>
+<div id="첫-직장-만족도-데이터" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> 첫 직장 만족도 데이터</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="데이터.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="st">&quot;LC_ALL&quot;</span>,<span class="st">&quot;C&quot;</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;C&quot;</code></pre>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="데이터.html#cb9-1" aria-hidden="true" tabindex="-1"></a>satisfaction <span class="ot">=</span>  <span class="fu">read.csv</span>(<span class="st">&quot;C:</span><span class="sc">\\</span><span class="st">Users</span><span class="sc">\\</span><span class="st">eunhwa</span><span class="sc">\\</span><span class="st">Documents</span><span class="sc">\\</span><span class="st">R-capstone</span><span class="sc">\\</span><span class="st">satisfaction.csv&quot;</span>, <span class="at">header =</span> T, <span class="at">sep=</span><span class="st">&quot;,&quot;</span>,<span class="at">encoding =</span> <span class="st">&quot;UTF-8&quot;</span>)</span>
+<span id="cb9-2"><a href="데이터.html#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="st">&quot;LC_ALL&quot;</span>,<span class="st">&quot;Korean&quot;</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;LC_COLLATE=Korean_Korea.949;LC_CTYPE=Korean_Korea.949;LC_MONETARY=Korean_Korea.949;LC_NUMERIC=C;LC_TIME=Korean_Korea.949&quot;</code></pre>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="데이터.html#cb11-1" aria-hidden="true" tabindex="-1"></a>satisfaction</span></code></pre></div>
+<pre><code>##    degree_name year  satis_name degree_satis_value
+## 1     공학계열 2018 매우 불만족               9.41
+## 2     공학계열 2018      불만족              25.34
+## 3     공학계열 2018        보통              36.73
+## 4     공학계열 2018        만족              23.70
+## 5     공학계열 2018   매우 만족               4.82
+## 6     교육계열 2018 매우 불만족               3.31
+## 7     교육계열 2018      불만족              16.48
+## 8     교육계열 2018        보통              33.27
+## 9     교육계열 2018        만족              40.04
+## 10    교육계열 2018   매우 만족               6.90
+## 11    사회계열 2018 매우 불만족               7.46
+## 12    사회계열 2018      불만족              23.67
+## 13    사회계열 2018        보통              39.74
+## 14    사회계열 2018        만족              26.83
+## 15    사회계열 2018   매우 만족               2.29
+## 16  예체능계열 2018 매우 불만족               8.06
+## 17  예체능계열 2018      불만족              23.61
+## 18  예체능계열 2018        보통              40.49
+## 19  예체능계열 2018        만족              25.47
+## 20  예체능계열 2018   매우 만족               2.38
+## 21    의약계열 2018 매우 불만족               5.51
+## 22    의약계열 2018      불만족              17.68
+## 23    의약계열 2018        보통              42.62
+## 24    의약계열 2018        만족              30.81
+## 25    의약계열 2018   매우 만족               3.38
+## 26    인문계열 2018 매우 불만족               5.05
+## 27    인문계열 2018      불만족              19.72
+## 28    인문계열 2018        보통              44.18
+## 29    인문계열 2018        만족              28.10
+## 30    인문계열 2018   매우 만족               2.94
+## 31    자연계열 2018 매우 불만족               5.34
+## 32    자연계열 2018      불만족              24.39
+## 33    자연계열 2018        보통              40.21
+## 34    자연계열 2018        만족              24.73
+## 35    자연계열 2018   매우 만족               5.33
+## 36    공학계열 2019 매우 불만족               9.41
+## 37    공학계열 2019      불만족              25.34
+## 38    공학계열 2019        보통              36.73
+## 39    공학계열 2019        만족              23.70
+## 40    공학계열 2019   매우 만족               4.82
+## 41    교육계열 2019 매우 불만족               3.31
+## 42    교육계열 2019      불만족              16.48
+## 43    교육계열 2019        보통              33.27
+## 44    교육계열 2019        만족              40.04
+## 45    교육계열 2019   매우 만족               6.90
+## 46    사회계열 2019 매우 불만족               7.46
+## 47    사회계열 2019      불만족              23.67
+## 48    사회계열 2019        보통              39.74
+## 49    사회계열 2019        만족              26.83
+## 50    사회계열 2019   매우 만족               2.29
+## 51  예체능계열 2019 매우 불만족               8.06
+## 52  예체능계열 2019      불만족              23.61
+## 53  예체능계열 2019        보통              40.49
+## 54  예체능계열 2019        만족              25.47
+## 55  예체능계열 2019   매우 만족               2.38
+## 56    의약계열 2019 매우 불만족               5.51
+## 57    의약계열 2019      불만족              17.68
+## 58    의약계열 2019        보통              42.62
+## 59    의약계열 2019        만족              30.81
+## 60    의약계열 2019   매우 만족               3.38
+## 61    인문계열 2019 매우 불만족               5.05
+## 62    인문계열 2019      불만족              19.72
+## 63    인문계열 2019        보통              44.18
+## 64    인문계열 2019        만족              28.10
+## 65    인문계열 2019   매우 만족               2.94
+## 66    자연계열 2019 매우 불만족               5.34
+## 67    자연계열 2019      불만족              24.39
+## 68    자연계열 2019        보통              40.21
+## 69    자연계열 2019        만족              24.73
+## 70    자연계열 2019   매우 만족               5.33</code></pre>
+</div>
+<div id="data-dictionary-1" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Data Dictionary</h2>
+<ul>
+<li><p>degree_name : 7가지 계열을 포함하는 변수(공학계열,교육계열,사회계열,예체능계열,의약계열,인문계열,자연계열)</p></li>
+<li><p>satis_name : 만족도 변수(매우 불만족, 불만족, 보통, 만족, 매우 만족)</p></li>
+<li><p>degree_satis_value : 만족도 별 비율 변수</p></li>
+</ul>
+</div>
+<div id="첫-직장-취업률-데이터" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> 첫 직장 취업률 데이터</h2>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="데이터.html#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="st">&quot;LC_ALL&quot;</span>,<span class="st">&quot;C&quot;</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;C&quot;</code></pre>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="데이터.html#cb15-1" aria-hidden="true" tabindex="-1"></a>employ_group2 <span class="ot">=</span>  <span class="fu">read.csv</span>(<span class="st">&quot;C:</span><span class="sc">\\</span><span class="st">Users</span><span class="sc">\\</span><span class="st">eunhwa</span><span class="sc">\\</span><span class="st">Documents</span><span class="sc">\\</span><span class="st">R-capstone</span><span class="sc">\\</span><span class="st">employ_group2.csv&quot;</span>, <span class="at">header =</span> T, <span class="at">sep=</span><span class="st">&quot;,&quot;</span>,<span class="at">encoding =</span> <span class="st">&quot;UTF-8&quot;</span>)</span>
+<span id="cb15-2"><a href="데이터.html#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="st">&quot;LC_ALL&quot;</span>,<span class="st">&quot;Korean&quot;</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;LC_COLLATE=Korean_Korea.949;LC_CTYPE=Korean_Korea.949;LC_MONETARY=Korean_Korea.949;LC_NUMERIC=C;LC_TIME=Korean_Korea.949&quot;</code></pre>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="데이터.html#cb17-1" aria-hidden="true" tabindex="-1"></a>employ_group2</span></code></pre></div>
+<pre><code>##         X.U.FEFF.degree_name degree_employ_value      group
+## 1               가정교육과              38.35000   교육계열
+## 2                 가정학과              68.03333   사회계열
+## 3               가족복지과              67.05000   사회계열
+## 4                   간호과              85.50000   의약계열
+## 5                 간호학과              84.00000   의약계열
+## 6               건강관리과              60.85000 예체능계열
+## 7             건강관리학과              66.05000 예체능계열
+## 8               건설산업과              73.50000   공학계열
+## 9               건설정보과              68.15000   공학계열
+## 10              건축공학과              70.90000   공학계열
+## 11                  건축과              69.85000   공학계열
+## 12                건축학과              73.80000   공학계열
+## 13              게임공학과              70.10000   공학계열
+## 14              경영정보과              65.80000   공학계열
+## 15                경영학과              66.35000   사회계열
+## 16          경영회계정보과              64.75000   사회계열
+## 17                경제학과              64.70000   사회계열
+## 18              경찰행정과              65.20000   사회계열
+## 19            경찰행정학과              54.30000   사회계열
+## 20            경호스포츠과              60.85000 예체능계열
+## 21                경호학과              66.05000 예체능계열
+## 22                고고학과              51.45000   인문계열
+## 23            고분자공학과              68.65000   공학계열
+## 24            공업디자인과              66.90000 예체능계열
+## 25          공업디자인학과              67.20000 예체능계열
+## 26              공업화학과              68.65000   공학계열
+## 27              공연제작과              62.60000 예체능계열
+## 28                  공예과              58.10000 예체능계열
+## 29          공예디자인학과              67.20000 예체능계열
+## 30                공예학과              65.00000 예체능계열
+## 31            공중보건학과              75.55000   의약계열
+## 32              과학교육과              38.35000   교육계열
+## 33              관광경영과              65.80000   사회계열
+## 34            관광경영학과              66.35000   사회계열
+## 35              관광통역과              69.80000   인문계열
+## 36                관현악과              42.75000 예체능계열
+## 37              광고기획과              65.80000   사회계열
+## 38            광고디자인과              66.90000 예체능계열
+## 39            광고홍보학과              64.95000   사회계열
+## 40              광학공학과              76.75000   공학계열
+## 41                  교양과              68.50000   인문계열
+## 42              교육공학과              53.40000   교육계열
+## 43            교육심리학과              53.40000   교육계열
+## 44                교육학과              53.40000   교육계열
+## 45              교통공학과              66.85000   공학계열
+## 46            국방기술학과              73.90000   공학계열
+## 47                국악학과              53.45000 예체능계열
+## 48              국어교육과              36.45000   교육계열
+## 49            국어국문학과              54.40000   인문계열
+## 50    국제경영 및 통상학과              66.35000   사회계열
+## 51            국제관계학과              61.95000   사회계열
+## 52        국제문화정보학과              61.95000   인문계열
+## 53            국제법무학과              50.40000   사회계열
+## 54                국제학과              61.95000   사회계열
+## 55                군사학과              60.70000   사회계열
+## 56              금속공예과              58.10000 예체능계열
+## 57            금속공예학과              65.00000 예체능계열
+## 58              금속공학과              67.65000   공학계열
+## 59              금융보험과              64.75000   사회계열
+## 60            금융보험학과              63.85000   사회계열
+## 61              금형설계과              71.40000   공학계열
+## 62              기계공학과              73.90000   공학계열
+## 63                  기계과              71.40000   공학계열
+## 64          기계설계공학과              73.90000   공학계열
+## 65              기계설계과              71.40000   공학계열
+## 66              기독교학과              60.35000   인문계열
+## 67              기술교육과              38.35000   교육계열
+## 68                  기악과              42.75000 예체능계열
+## 69              나노공학과              61.70000   공학계열
+## 70          냉동공조공학과              70.80000   공학계열
+## 71          노인보건복지과              67.05000   사회계열
+## 72            노인복지학과              61.55000   사회계열
+## 73                농공학과              66.95000   자연계열
+## 74              농생물학과              53.95000   자연계열
+## 75                농수산과              77.35000   자연계열
+## 76            농업경제학과              64.70000   사회계열
+## 77              농업교육과              38.35000   교육계열
+## 78              대기과학과              55.95000   자연계열
+## 79              대중음악과              53.50000 예체능계열
+## 80            댄스스포츠과              60.85000 예체능계열
+## 81            도시계획학과              62.05000   사회계열
+## 82              도시공학과              63.55000   공학계열
+## 83            도자기공예과              58.10000 예체능계열
+## 84          도자기공예학과              65.00000 예체능계열
+## 85        독서문화콘텐츠과              45.15000 예체능계열
+## 86            독어독문학과              61.70000   인문계열
+## 87            독일어교육과              36.45000   교육계열
+## 88                독일학과              60.35000   인문계열
+## 89            동물자원학과              62.90000   자연계열
+## 90                동양화과              59.55000 예체능계열
+## 91          디지털디자인과              66.90000 예체능계열
+## 92          디지털미디어과              66.90000   사회계열
+## 93            디지털정보과              68.15000 예체능계열
+## 94        디지털콘텐츠학과              70.60000 예체능계열
+## 95          러시아어문학과              63.55000   인문계열
+## 96              러시아학과              63.55000   인문계열
+## 97            레저스포츠과              60.85000 예체능계열
+## 98          레저스포츠학과              66.05000 예체능계열
+## 99          레크리에이션과              60.85000 예체능계열
+## 100           마케팅정보과              65.80000   사회계열
+## 101     만화애니메이션학과              64.50000 예체능계열
+## 102             만화창작과              57.60000 예체능계열
+## 103         말특수동물학과              75.50000   자연계열
+## 104       멀티미디어정보과              68.15000   공학계열
+## 105         멀티미디어학과              70.60000   공학계열
+## 106     메이크업아티스트과              63.55000 예체능계열
+## 107     메카트로닉스공학과              73.75000   공학계열
+## 108         메카트로닉스과              72.25000   공학계열
+## 109                 모델과              63.55000 예체능계열
+## 110     모바일시스템공학과              70.10000   공학계열
+## 111         목조형가구학과              65.00000 예체능계열
+## 112               무도학과              66.05000 예체능계열
+## 113                 무역과              65.65000   사회계열
+## 114               무역학과              63.85000   사회계열
+## 115                 무용과              48.20000 예체능계열
+## 116               무용학과              63.40000 예체능계열
+## 117             문예창작과              41.15000   인문계열
+## 118           문예창작학과              54.40000   인문계열
+## 119             문헌정보과              64.10000   인문계열
+## 120           문헌정보학과              60.70000   인문계열
+## 121             문화관광과              66.15000   사회계열
+## 122               문화재과              45.15000   인문계열
+## 123         문화재보존학과              60.40000   인문계열
+## 124         문화콘텐츠학과              60.40000   인문계열
+## 125       물류시스템공학과              70.80000   공학계열
+## 126             물리교육과              38.35000   교육계열
+## 127             물리치료과              83.00000   의약계열
+## 128           물리치료학과              80.15000   의약계열
+## 129               물리학과              61.70000   자연계열
+## 130               뮤지컬과              53.50000 예체능계열
+## 131               미국학과              60.35000   인문계열
+## 132             미디어학과              70.60000 예체능계열
+## 133             미술교육과              50.15000   교육계열
+## 134               미술학과              59.55000 예체능계열
+## 135                 미용과              63.55000 예체능계열
+## 136               민속학과              60.40000   인문계열
+## 137       바이오생명정보과              64.15000   자연계열
+## 138             반도체학과              72.20000   공학계열
+## 139               방사선과              75.35000   의약계열
+## 140             방사선학과              75.55000   의약계열
+## 141             방송영상과              61.75000   사회계열
+## 142             방송제작과              61.75000   사회계열
+## 143                 법률과              54.50000   사회계열
+## 144                 법학과              50.40000   사회계열
+## 145           벤처창업학과              66.35000   사회계열
+## 146           병원관리학과              54.30000   의약계열
+## 147           보건관리학과              75.55000   의약계열
+## 148             보건행정과              65.20000   사회계열
+## 149           보건행정학과              54.30000   사회계열
+## 150             보건환경과              75.35000   의약계열
+## 151             보석감정과              58.10000 예체능계열
+## 152               부동산과              65.80000   사회계열
+## 153             부동산학과              66.35000   사회계열
+## 154               부사관과              65.20000   사회계열
+## 155               북한학과              60.35000   인문계열
+## 156               불교학과              60.35000   인문계열
+## 157             불어교육과              36.45000   교육계열
+## 158           불어불문학과              64.25000   인문계열
+## 159           뷰티미용학과              64.80000 예체능계열
+## 160             비서행정과              82.45000   사회계열
+## 161           비서행정학과              54.30000   사회계열
+## 162         사이버국방학과              70.95000   공학계열
+## 163                 사진과              57.60000 예체능계열
+## 164           사진영상학과              64.50000 예체능계열
+## 165                 사학과              51.45000   인문계열
+## 166               사회계열              63.81500   교육계열
+## 167           사회교육학과              35.35000   사회계열
+## 168             사회복지과              67.05000   사회계열
+## 169         사회복지상담과              67.05000   사회계열
+## 170           사회복지학과              61.55000 예체능계열
+## 171             사회체육과              60.85000 예체능계열
+## 172           사회체육학과              66.05000   사회계열
+## 173               사회학과              56.25000   자연계열
+## 174           산림자원학과              62.90000   사회계열
+## 175             산업경영과              65.80000   사회계열
+## 176           산업경영학과              66.35000   공학계열
+## 177             산업공학과              70.40000   공학계열
+## 178           산업디자인과              61.25000 예체능계열
+## 179         산업디자인학과              64.70000 예체능계열
+## 180       산업설비자동화과              72.50000   공학계열
+## 181             산업안전과              75.35000   의약계열
+## 182             산업잠수과              60.85000 예체능계열
+## 183             생명공학과              54.60000   자연계열
+## 184             생명과학과              54.60000   자연계열
+## 185           생명자원학과              62.90000   자연계열
+## 186             생물교육과              38.35000   교육계열
+## 187     생물산업기계공학과              54.60000   자연계열
+## 188               생물학과              53.95000   자연계열
+## 189               생화학과              53.95000   자연계열
+## 190               서양화과              59.55000 예체능계열
+## 191                 선교과              67.05000   사회계열
+## 192               선교학과              60.35000   인문계열
+## 193             섬유공학과              63.45000   공학계열
+## 194           섬유디자인과              66.90000   공학계열
+## 195         섬유디자인학과              67.20000 예체능계열
+## 196                 성악과              42.80000 예체능계열
+## 197           세라믹공학과              72.20000   공학계열
+## 198               세무학과              63.85000   사회계열
+## 199             세무회계과              64.75000   사회계열
+## 200           소방방재학과              70.80000   공학계열
+## 201         소방안전관리과              75.35000   의약계열
+## 202       소프트웨어공학과              70.10000   공학계열
+## 203               수의학과              75.50000   자연계열
+## 204                 수학과              59.95000   자연계열
+## 205             수학교육과              38.35000   교육계열
+## 206       수해양산업교육과              38.35000   교육계열
+## 207             스마트폰과              68.15000   공학계열
+## 208         스토리텔링학과              54.40000   인문계열
+## 209           스페인어학과              59.70000   인문계열
+## 210       스포츠마케팅학과              66.35000   사회계열
+## 211           스포츠외교과              60.85000 예체능계열
+## 212           스포츠의학과              66.05000 예체능계열
+## 213           스포츠재활과              60.85000 예체능계열
+## 214           스포츠지도과              60.85000 예체능계열
+## 215         스포츠지도학과              66.05000 예체능계열
+## 216           시각디자인과              61.15000 예체능계열
+## 217         시각디자인학과              65.20000 예체능계열
+## 218       시스템경영공학과              70.40000   공학계열
+## 219           시스템공학과              70.80000   공학계열
+## 220           식물자원학과              62.90000   자연계열
+## 221             식품가공과              62.65000   자연계열
+## 222             식품공학과              67.15000   자연계열
+## 223             식품과학과              62.65000   자연계열
+## 224             식품영양과              62.65000   자연계열
+## 225           식품영양학과              67.15000   자연계열
+## 226             식품조리과              62.65000   자연계열
+## 227           신문방송학과              64.25000 예체능계열
+## 228         신발패션산업과              72.50000 예체능계열
+## 229           신소재공학과              66.80000   공학계열
+## 230           신소재응용과              75.45000   공학계열
+## 231         신재생에너지과              68.50000   공학계열
+## 232                 신학과              60.35000   인문계열
+## 233           실내디자인과              66.90000 예체능계열
+## 234         실내디자인학과              67.20000 예체능계열
+## 235             실용미술과              80.90000 예체능계열
+## 236           실용음악학과              53.50000 예체능계열
+## 237               심리학과              53.10000   인문계열
+## 238             아동교육과              82.65000   교육계열
+## 239             아동복지과              67.05000   사회계열
+## 240           아동복지학과              61.55000   사회계열
+## 241               아동학과              61.55000   사회계열
+## 242             아랍어학과              65.95000   인문계열
+## 243           아시아어학과              65.95000   인문계열
+## 244         아프리카어학과              57.95000   인문계열
+## 245             안경광학과              68.50000   공학계열
+## 246             안전공학과              70.80000   공학계열
+## 247           애니메이션과              57.60000 예체능계열
+## 248             애완동물과              64.15000   자연계열
+## 249                 약학부              88.50000   의약계열
+## 250           언론홍보학과              64.95000   사회계열
+## 251             언어과학과              56.35000   인문계열
+## 252             언어재활과              83.00000   의약계열
+## 253           언어치료학과              59.45000   교육계열
+## 254       에너지자원공학과              67.20000   공학계열
+## 255             역사교육과              35.35000   교육계열
+## 256             연극영화과              57.35000 예체능계열
+## 257           연극영화학과              63.90000 예체능계열
+## 258               연극학과              63.90000 예체능계열
+## 259       연예매니지먼트과              62.60000 예체능계열
+## 260             연예연기과              57.35000 예체능계열
+## 261       영상멀티미디어과              62.60000 예체능계열
+## 262           영상미술학과              60.45000 예체능계열
+## 263             영상제작과              62.60000 예체능계열
+## 264           영상콘텐츠과              62.60000 예체능계열
+## 265                 영어과              55.10000   인문계열
+## 266             영어교육과              36.45000   교육계열
+## 267           영어영문학과              60.60000   인문계열
+## 268               영어학과              60.60000   인문계열
+## 269                 영화과              57.35000 예체능계열
+## 270             예술치료과              83.00000   의약계열
+## 271           예술치료학과              80.15000   의약계열
+## 272               예술학과              64.80000 예체능계열
+## 273             외국어학부              60.05000   인문계열
+## 274             외식산업과              65.80000   사회계열
+## 275           외식산업학과              66.35000   사회계열
+## 276             외식조리과              62.65000   자연계열
+## 277             우주과학과              55.95000   자연계열
+## 278                 원예과              68.65000   자연계열
+## 279               원예학과              58.60000   자연계열
+## 280           원자력공학과              67.20000   공학계열
+## 281       웹그래픽디자인과              66.90000 예체능계열
+## 282         유럽·기타어과              62.05000   인문계열
+## 283               유럽학과              60.35000   인문계열
+## 284             유아교육과              82.65000   교육계열
+## 285           유아교육학과              76.75000   교육계열
+## 286         유아특수재활과              94.45000   교육계열
+## 287             유전공학과              54.60000   자연계열
+## 288             유통경영과              65.80000   사회계열
+## 289               유통학과              63.85000   사회계열
+## 290             윤리교육과              36.30000   교육계열
+## 291                 음악과              53.50000 예체능계열
+## 292             음악교육과              50.15000   교육계열
+## 293               음악학과              48.45000 예체능계열
+## 294             음향제작과              63.20000 예체능계열
+## 295             응급구조과              75.35000   의약계열
+## 296           응급구조학과              71.45000   의약계열
+## 297   응용소프트웨어공학과              70.10000   공학계열
+## 298           의료보장구과              66.75000   의약계열
+## 299         의료정보공학과              71.45000   공학계열
+## 300       의료정보시스템과              67.95000   의약계열
+## 301               의류학과              66.85000   자연계열
+## 302             의무행정과              67.95000   의약계열
+## 303           의상디자인과              65.50000 예체능계열
+## 304         의상디자인학과              59.95000 예체능계열
+## 305               의상학과              66.85000 예체능계열
+## 306                 의예과              88.05000   의약계열
+## 307             의용공학과              71.45000   의약계열
+## 308               이벤트과              65.80000 예체능계열
+## 309         이탈리아어학과              57.95000   인문계열
+## 310             인도어학과              65.95000   인문계열
+## 311               인류학과              60.40000   인문계열
+## 312               인문학부              74.65000   인문계열
+## 313                 인쇄과              72.50000   자연계열
+## 314         인쇄정보공학과              70.80000   자연계열
+## 315           인터넷방송과              61.75000   공학계열
+## 316           인터넷정보과              68.15000   공학계열
+## 317         인터넷정보학과              70.95000   교육계열
+## 318         일반사회교육과              35.35000   인문계열
+## 319               일본어과              48.15000   인문계열
+## 320               일본학과              53.25000   교육계열
+## 321             일어교육과              36.45000   인문계열
+## 322           일어일문학과              53.25000   자연계열
+## 323             임산공학과              58.60000   의약계열
+## 324             임상병리과              75.35000   의약계열
+## 325           임상병리학과              75.55000   의약계열
+## 326                 임학과              58.60000   자연계열
+## 327           자동차공학과              66.15000   공학계열
+## 328               자동차과              68.85000   공학계열
+## 329           자동차정비과              68.85000   공학계열
+## 330         자원동물산업과              54.45000   자연계열
+## 331           자율전공학부              54.65000   인문계열
+## 332                 작곡과              48.55000 예체능계열
+## 333             작업치료과              83.00000   의약계열
+## 334           작업치료학과              80.15000   의약계열
+## 335             장례지도과              67.05000   사회계열
+## 336             재료공학과              67.85000   공학계열
+## 337                 재료과              88.45000   공학계열
+## 338               재활학과              80.15000   의약계열
+## 339             전기공학과              69.05000   공학계열
+## 340         전기공학교육과              52.85000   교육계열
+## 341                 전기과              75.75000   공학계열
+## 342         전기전자공학과              72.55000   공학계열
+## 343             전기전자과              72.15000   공학계열
+## 344         전기제어공학과              73.00000   공학계열
+## 345                 전산과              64.55000   공학계열
+## 346             전자공학과              72.55000   공학계열
+## 347                 전자과              72.15000   공학계열
+## 348         전자상거래학과              66.35000   사회계열
+## 349         전통약재개발과              54.45000   의약계열
+## 350             전통의상과              61.55000 예체능계열
+## 351             전통조리과              62.65000   자연계열
+## 352             전파공학과              70.95000   공학계열
+## 353             정밀화학과              59.30000   자연계열
+## 354           정보보호학과              64.25000   공학계열
+## 355         정보통신공학과              70.95000   공학계열
+## 356             정보통신과              68.15000   공학계열
+## 357           정치외교학과              60.70000   사회계열
+## 358             제과제빵과              62.65000   자연계열
+## 359             제약공학과              54.60000   자연계열
+## 360         제어계측공학과              73.00000   공학계열
+## 361             제어계측과              72.95000   공학계열
+## 362           제어로봇학과              73.75000   공학계열
+## 363             제지공학과              70.80000   공학계열
+## 364             제철금속과              72.65000   공학계열
+## 365           제품디자인과              66.90000 예체능계열
+## 366                 조경과              71.55000   공학계열
+## 367               조경학과              61.80000   공학계열
+## 368             조리과학과              67.15000   자연계열
+## 369             조선공학과              78.85000   공학계열
+## 370                 조선과              71.05000   공학계열
+## 371               조소학과              60.30000 예체능계열
+## 372         조형디자인학과              67.20000 예체능계열
+## 373             종교교육과              36.30000   교육계열
+## 374               종교학과              60.35000   인문계열
+## 375         중국비즈니스과              65.80000   사회계열
+## 376               중국어과              57.25000   인문계열
+## 377               중국학과              61.10000   인문계열
+## 378           중어중문학과              61.10000   인문계열
+## 379             증권금융과              63.85000   사회계열
+## 380         지구과학교육과              38.35000   교육계열
+## 381           지구물리학과              61.70000   자연계열
+## 382         지구정보공학과              59.70000   자연계열
+## 383         지구해양과학과              59.70000   자연계열
+## 384             지리교육과              35.35000   교육계열
+## 385               지리학과              59.70000   자연계열
+## 386             지방행정과              65.20000   사회계열
+## 387           지역개발학과              62.05000   사회계열
+## 388               지역학과              62.05000   자연계열
+## 389                 지적과              57.10000   자연계열
+## 390               지적학과              59.70000   자연계열
+## 391               지질학과              59.70000   자연계열
+## 392             지형정보과              57.10000   자연계열
+## 393             창업경영과              65.80000   사회계열
+## 394               천문학과              55.95000   자연계열
+## 395             철도경영과              65.80000   사회계열
+## 396         철도시설토목과              72.65000   공학계열
+## 397         철도운수경영과              65.80000   공학계열
+## 398         철도운전기전과              65.90000   공학계열
+## 399         철도전기제어과              72.95000   공학계열
+## 400         철도차량기계과              71.40000   공학계열
+## 401                 철학과              51.35000   인문계열
+## 402           청소년문화과              45.15000   사회계열
+## 403         청소년지도학과              61.55000   사회계열
+## 404             체육교육과              50.15000   교육계열
+## 405               체육학과              66.05000 예체능계열
+## 406             초등교육과              77.30000   교육계열
+## 407                 축산과              77.35000   자연계열
+## 408               축산학과              66.95000   자연계열
+## 409           출판미디어과              72.50000 예체능계열
+## 410             측지정보과              72.65000   공학계열
+## 411               치기공과              66.75000   의약계열
+## 412             치기공학과              71.45000   의약계열
+## 413               치위생과              75.35000   의약계열
+## 414             치위생학과              91.75000   의약계열
+## 415               치의예과              91.75000   의약계열
+## 416 커뮤니케이션디자인학과              67.20000 예체능계열
+## 417           컨벤션산업과              65.80000   사회계열
+## 418           컬러리스트과              63.55000 예체능계열
+## 419           컴퓨터게임과              62.10000 예체능계열
+## 420           컴퓨터공학과              70.60000   공학계열
+## 421           컴퓨터과학과              70.60000   공학계열
+## 422           컴퓨터교육과              52.85000   교육계열
+## 423         컴퓨터그래픽과              62.60000 예체능계열
+## 424       컴퓨터디자인학과              67.20000 예체능계열
+## 425           컴퓨터보안과              68.15000   공학계열
+## 426     컴퓨터소프트웨어과              62.10000   공학계열
+## 427       컴퓨터응용설계과              64.55000   공학계열
+## 428       컴퓨터응용제어과              72.95000   공학계열
+## 429     컴퓨터전기자동화과              75.75000   공학계열
+## 430           컴퓨터정보과              68.15000   공학계열
+## 431           코디네이션과              63.55000 예체능계열
+## 432         코미디연기학과              63.90000 예체능계열
+## 433             태국어학과              65.95000   인문계열
+## 434               태권도과              60.85000 예체능계열
+## 435             터키어학과              57.95000   인문계열
+## 436             토목공학과              63.40000   공학계열
+## 437                 토목과              72.65000   공학계열
+## 438               통계학과              67.50000   자연계열
+## 439             통번역학과              60.05000   인문계열
+## 440           특수교육학과              59.45000   교육계열
+## 441             특수장비과              72.50000   공학계열
+## 442                 판화과              60.30000 예체능계열
+## 443           패션디자인과              65.50000 예체능계열
+## 444   패션악세사리디자인과              66.90000 예체능계열
+## 445         포르투갈어학과              57.95000   인문계열
+## 446           폴란드어학과              57.95000   인문계열
+## 447             표면처리과              72.65000   공학계열
+## 448     푸드스타일리스트과              63.55000   자연계열
+## 449             품질관리과              65.80000   사회계열
+## 450             프랑스학과              64.25000   인문계열
+## 451             피부미용과              63.55000 예체능계열
+## 452             피아노학과              42.75000 예체능계열
+## 453               한국어과              69.80000   인문계열
+## 454             한국어학과              54.40000   인문계열
+## 455             한국음악과              53.45000 예체능계열
+## 456             한문교육과              36.45000   교육계열
+## 457               한문학과              61.10000   인문계열
+## 458               한방학과              62.90000   자연계열
+## 459               한약학과              88.50000   의약계열
+## 460               한의예과              89.60000   의약계열
+## 461             항공보안과              70.95000   공학계열
+## 462           항공서비스과              66.15000   사회계열
+## 463         항공서비스학과              67.10000   사회계열
+## 464         항공우주공학과              71.45000   공학계열
+## 465             항공운항과              66.15000   사회계열
+## 466           항공운항학과              71.45000   공학계열
+## 467             항공정비과              70.95000   공학계열
+## 468               항해학과              78.85000   공학계열
+## 469             해양경찰과              65.20000   사회계열
+## 470           해양경찰학과              54.30000   사회계열
+## 471             해양공학과              78.85000   공학계열
+## 472         해양생명과학과              54.60000   자연계열
+## 473         해양스포츠학과              66.05000 예체능계열
+## 474         해양시스템학과              78.85000   공학계열
+## 475           해양자원학과              62.90000   자연계열
+## 476                 행정과              65.20000   사회계열
+## 477               행정학과              54.30000   사회계열
+## 478           헝가리어학과              57.95000   인문계열
+## 479             호텔경영과              65.80000   사회계열
+## 480         호텔외식경영과              65.80000   사회계열
+## 481             호텔조리과              62.65000   자연계열
+## 482               화장품과              72.50000   공학계열
+## 483           화장품과학과              70.80000   공학계열
+## 484             화학공업과              70.75000   공학계열
+## 485             화학공학과              68.65000   공학계열
+## 486                 화학과              59.30000   자연계열
+## 487             화학교육과              38.35000   교육계열
+## 488             환경공업과              69.15000   자연계열
+## 489             환경공학과              61.45000   자연계열
+## 490             환경과학과              61.45000   자연계열
+## 491             환경관리과              65.80000   자연계열
+## 492             환경교육과              38.35000   교육계열
+## 493           환경디자인과              66.90000 예체능계열
+## 494         환경디자인학과              67.20000 예체능계열
+## 495           환경보건학과              75.55000   의약계열
+## 496           환경조각학과              60.30000 예체능계열
+## 497             환경화학과              69.15000   공학계열
+## 498               회계학과              63.85000   사회계열
+## 499               회화학과              59.55000 예체능계열
+## 500           e-비즈니스과              65.80000   사회계열
+## 501         e-비즈니스학과              66.35000   사회계열</code></pre>
+</div>
+<div id="data-dictionary-2" class="section level2" number="2.6">
+<h2><span class="header-section-number">2.6</span> Data Dictionary</h2>
+<ul>
+<li><p>degree_name : 7가지 계열을 포함하는 변수(공학계열,교육계열,사회계열,예체능계열,의약계열,인문계열,자연계열)</p></li>
+<li><p>degree_employ_value : 취업률 변수</p></li>
+<li><p>sex: 성별 변수</p></li>
 </ul>
 
 </div>
@@ -275,20 +922,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

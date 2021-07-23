@@ -49,7 +49,7 @@ https://medium.com/excitinglab/withr-%EC%A2%80%EB%8D%94-%ED%95%98%EB%8A%94-ggplo
 #console + error
 https://m.blog.naver.com/psy2029/221657360227
 
-# Mac OS 엑셀 한글깨짐
+#Mac OS 엑셀 한글깨짐
 https://m.blog.naver.com/psy2029/221657360227
 
 https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=leemeowmeow&logNo=221279800711
@@ -77,18 +77,18 @@ https://m.blog.naver.com/elato/221267085517
 #%>% 함수
 https://zetawiki.com/wiki/%ED%95%A8%EC%88%98_%22%25%EF%BC%9E%25%22%EB%A5%BC_%EC%B0%BE%EC%9D%84_%EC%88%98_%EC%97%86%EC%8A%B5%EB%8B%88%EB%8B%A4
 
-# 막대그래프에 라벨 추가하기
+#막대그래프에 라벨 추가하기
 https://medium.com/excitinglab/withr-%EC%A2%80%EB%8D%94-%ED%95%98%EB%8A%94-ggplot2-adding-labels-to-a-bar-graph
 -%EB%A7%89%EB%8C%80%EA%B7%B8%EB%9E%98%ED%94%84%EC%97%90-%EB%9D%BC%EB%B2%A8
 -%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-f06a38ef8e18
 
-# R 파일 읽기나 경로 변경 시 Error: 'C:\U' used without hex digits in character string starting 'C:\U' 해결
+#R 파일 읽기나 경로 변경 시 Error: 'C:\U' used without hex digits in character string starting 'C:\U' 해결
 https://freshrimpsushi.github.io/posts/how-to-fix-error-used-without-hex-digits-in-character-string-starting/#%ED%95%B4%EA%B2%B0%EB%B2%95
 
-# R의 ggplot 제목, 축제목, 범례제목 설정하기
+#R의 ggplot 제목, 축제목, 범례제목 설정하기
 
 https://jtr13.github.io/cc21/translation-of-ggplot2-tutorial-in-korean.html
 
-# R의 시각화(그래프) 기능(11) - ggplot2 사용법(기타 : 범례, 레이블, 텍스트 추가 등)
+#R의 시각화(그래프) 기능(11) - ggplot2 사용법(기타 : 범례, 레이블, 텍스트 추가 등)
 https://m.blog.naver.com/definitice/221162502291
 
