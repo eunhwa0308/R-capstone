@@ -1,3 +1,94 @@
 `r if (knitr:::is_html_output()) '
 # References {-}
 '`
+#박스 플롯 색상,테마
+https://www.r-graph-gallery.com/264-control-ggplot2-boxplot-colors.html
+#ggplot2 color change
+http://www.sthda.com/english/wiki/ggplot2-colors-how-to-change-colors-automatically-and-manually
+#ggplot2 label 설정
+https://lumiamitie.github.io/r/visualization/ggplot2-labs/
+#violin plot 
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=edgelab&logNo=150187317927
+#ggplot2 point color
+https://m.blog.naver.com/PostView.nhn?isHttpsRedirect=true&blogId=liberty264&logNo=220751232639
+#Center the title ggplot
+https://rstudio-pubs-static.s3.amazonaws.com/366989_b80cfe1ffa5149f589fb44ea847f5967.html
+#wordcloud2
+https://ark1st.tistory.com/25
+
+https://minimax95.tistory.com/entry/R-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D4-wordcloud2-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
+
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jk940&logNo=221365461445
+
+#wordcloud
+https://steemit.com/wordcloud/@hironlee/r-wordcloud
+
+https://lsjsj92.tistory.com/217
+
+#treemap
+http://www.datamarket.kr/xe/index.php?mid=board_AGDR50&document_srl=248&m=0
+
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=jnlovejy&logNo=221733378803
+
+https://www.kejisen.com/ko/article/205864513.html
+
+http://www.datamarket.kr/xe/index.php?mid=board_AGDR50&document_srl=1354&listStyle=viewer
+
+#treemap 한글 깨짐
+https://github.com/newstars/HelloR/issues/7
+
+#scale_fill_brewer()
+https://rfriend.tistory.com/tag/scale_fill_brewer%28%29
+
+https://kuduz.tistory.com/1229
+
+https://rfriend.tistory.com/69
+
+https://medium.com/excitinglab/withr-%EC%A2%80%EB%8D%94-%ED%95%98%EB%8A%94-ggplot2-bar-graphs-%EB%8B%A4%EC%96%91%ED%95%9C-%EB%A7%89%EB%8C%80-%EA%B7%B8%EB%9E%98%ED%94%84-4ebc9f35b2c5
+
+#console + error
+https://m.blog.naver.com/psy2029/221657360227
+
+# Mac OS 엑셀 한글깨짐
+https://m.blog.naver.com/psy2029/221657360227
+
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=leemeowmeow&logNo=221279800711
+
+#ggplot2 한글 깨짐
+https://gigle.tistory.com/158
+
+#wordcloud
+https://1022yk.tistory.com/5
+
+https://m.blog.naver.com/chunsa0127/221862598974
+
+#엑셀 수식 -> 값
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=villamoa003&logNo=220927051535
+
+#엑셀 ROUND 함수
+https://minaminaworld.tistory.com/44
+
+#엑셀 INT 함수
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=permamuri&logNo=220490239946
+
+#엑셀 부분합과 요약부분 복사
+https://m.blog.naver.com/elato/221267085517
+
+#%>% 함수
+https://zetawiki.com/wiki/%ED%95%A8%EC%88%98_%22%25%EF%BC%9E%25%22%EB%A5%BC_%EC%B0%BE%EC%9D%84_%EC%88%98_%EC%97%86%EC%8A%B5%EB%8B%88%EB%8B%A4
+
+# 막대그래프에 라벨 추가하기
+https://medium.com/excitinglab/withr-%EC%A2%80%EB%8D%94-%ED%95%98%EB%8A%94-ggplot2-adding-labels-to-a-bar-graph
+-%EB%A7%89%EB%8C%80%EA%B7%B8%EB%9E%98%ED%94%84%EC%97%90-%EB%9D%BC%EB%B2%A8
+-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-f06a38ef8e18
+
+# R 파일 읽기나 경로 변경 시 Error: 'C:\U' used without hex digits in character string starting 'C:\U' 해결
+https://freshrimpsushi.github.io/posts/how-to-fix-error-used-without-hex-digits-in-character-string-starting/#%ED%95%B4%EA%B2%B0%EB%B2%95
+
+# R의 ggplot 제목, 축제목, 범례제목 설정하기
+
+https://jtr13.github.io/cc21/translation-of-ggplot2-tutorial-in-korean.html
+
+# R의 시각화(그래프) 기능(11) - ggplot2 사용법(기타 : 범례, 레이블, 텍스트 추가 등)
+https://m.blog.naver.com/definitice/221162502291
+

@@ -1,13 +1,52 @@
 # 데이터
 
-이 챕터에는 분석을 위해 사용된 데이터에 대해서 설명하고 Data Dictionary를 포함한다.
 
-## 데이터 
+## 첫 직장 임금 데이터 
+```{r}
+Sys.setlocale("LC_ALL","C")
+salary =  read.csv(file = "C:\\Users\\eunhwa\\Documents\\R-capstone\\salary.csv", header = T, sep=",",encoding = "UTF-8")
+Sys.setlocale("LC_ALL","Korean")
+salary
+```
 
 ## Data Dictionary
 
-- variable1: describe what variable1 is about
+- degree_name: 7가지 계열을 포함하는 변수(공학계열,교육계열,사회계열,예체능계열,의약계열,인문계열,자연계열)
 
-- variable2: describe what variable2 is about
+- salary_name: 월평균 임금을 8구간으로 나눈 변수(0~50만원,51~100만원,101~150만원,151~200만원,201~250만원,251~300만원,301만원 이상,500만원이상)
 
-- variable3: describe what variable3 is about
+- degree_salary_value: 임금 구간 별 비율 변수
+
+## 첫 직장 만족도 데이터
+```{r}
+Sys.setlocale("LC_ALL","C")
+satisfaction =  read.csv("C:\\Users\\eunhwa\\Documents\\R-capstone\\satisfaction.csv", header = T, sep=",",encoding = "UTF-8")
+Sys.setlocale("LC_ALL","Korean")
+satisfaction
+```
+
+## Data Dictionary
+
+- degree_name : 7가지 계열을 포함하는 변수(공학계열,교육계열,사회계열,예체능계열,의약계열,인문계열,자연계열)
+
+- satis_name : 만족도 변수(매우 불만족, 불만족, 보통, 만족, 매우 만족)
+
+- degree_satis_value : 만족도 별 비율 변수
+
+## 첫 직장 취업률 데이터
+```{r}
+Sys.setlocale("LC_ALL","C")
+employ_group2 =  read.csv("C:\\Users\\eunhwa\\Documents\\R-capstone\\employ_group2.csv", header = T, sep=",",encoding = "UTF-8")
+Sys.setlocale("LC_ALL","Korean")
+employ_group2
+
+```
+
+
+## Data Dictionary
+
+- degree_name :  7가지 계열을 포함하는 변수(공학계열,교육계열,사회계열,예체능계열,의약계열,인문계열,자연계열)
+
+- degree_employ_value : 취업률 변수
+
+- sex: 성별 변수

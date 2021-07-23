@@ -1,31 +1,23 @@
 # 서론 {#intro}
 
-This is an introduction.
 
-서론에는 다음과 같은 내용을 포함한다.  
-(1) 프로젝트의 목적과 배경을 하나 또는 두개의 문단에 설명
-(2) 전체 리포트가 어떤 챕터들을 포함하는지 그리고 각 챕터에서는 어떤 내용을 포함하는 지 간략히 설명
+## 프로젝트 배경
 
-(아래의 내용은 R Markdown으로 사용 가능한 레이블, 인용, R Code Chunks, 테이블 등을 어떻게 사용하는 지 보여줌.)
+ 저희 조는 캡스톤을 진행하기 위해 다양한 분야의 데이터들을 찾아봤습니다. 
+코로나 확진자 수에 관련된 데이터, 미세먼지 농도에 관한 데이터 등 많은 후보 데이터들을 찾았습니다.
+그러던 중 계열별 취업률 데이터와 첫 직장의 첫 월급 데이터와 같이 직업과 밀접한 관계성이 있는 데이터들을 찾게 되었습니다.  
+저희 조원들 모두 내년에 3학년이 되기 때문에 직업에 관한 데이터들을 분석하고 시각화 해보면 좋겠다고 생각했습니다. 
 
-------
+## 프로젝트 목적 
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+ 저희 프로젝트는 직업, 취업과 관련된 다양한 데이터들을 분석하고 처리하여 시각화하는 것입니다.
+조원들이 곧 고학년이 되기에 시각화 자료가 필요한 부분도 있지만, 청소년 때의 경험이 이 프로젝트를 구상하는 데에 큰 영향을 끼쳤습니다. 청소년 때 진로와 전공 선택을 하는 부분에 있어서 시각화 된 자료들도 별로 없고 정리가 되어있지 않아서 자료를 찾는 데에 어려움을 겪었습니다. 때문에, 전국의 모든 대학교, 모든 학과의 직업, 취업 관련 데이터를 종합해 시각화 자료를 만들어 도움을 주고 싶었습니다. 직업 만족도, 취업률, 임금 총 세 가지의 데이터를 사용하여 좋은 시각화 자료를 만들어 대학생, 청소년들이 진로를 정할 때 조금이라도 도움이 되고자 해당 프로젝트를 기획하게 되었습니다.
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+## 리포트 개요
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
-
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
-
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
-
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+리포트는 데이터, 시각화 , 응용 분야, 결론 , 참조 챕터로 구성되어있습니다.
+데이터 챕터에서는 어떤 데이터를 사용했는지와 데이터의 variable에 대한 설명이 나와있습니다.
+시각화 챕터에서는 어떻게 데이터를 처리하여 시각화 하였는지에 관한 내용을 포함하였습니다.
+응용 분야 챕터에서는 이 프로젝트를 통해 시각화한 자료가 응용될 수 있는 부분에 대하여 다뤘습니다.
+결론 챕터에서는 시각화를 통해 알아낸 사실들을 정리하였습니다.
+마지막으로 참조 챕터에서는 프로젝트를 진행하면서 참고했던 사이트들의 링크를 모아뒀습니다.
