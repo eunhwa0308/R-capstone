@@ -9,7 +9,7 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "저희 프로젝트는 직업, 취업과 관련된 다양한 데이터들을 분석하고 처리하여 시각화하는 것입니다. 조원들이 곧 고학년이 되기에 시각화 자료가 필요한 부분도 있지만, 청소년 때의 경험이 이 프로젝트를 구상하는 데에 큰 영향을 끼쳤습니다. 청소년 때 진로와 전공 선택을 하는 부분에 있어서 시각화 된 자료들도 별로 없고 정리가 되어있지 않아서 자료를 찾는 데에 어려움을 겪었습니다. 때문에, 전국의 모든 대학교, 모든 학과의 직업, 취업 관련 데이터를 종합해 시각화 자료를 만들어 도움을 주고 싶었습니다. 직업 만족도, 취업률, 임금 총 세 가지의 데이터를 사용하여 좋은 시각화 자료를 만들어 대학생, 청소년들이 진로를 정할 때 조금이라도 도움이 되고자 해당 프로젝트를 기획하게 되었습니다."
 ---
 # 수업과 팀원 소개 {-}
 

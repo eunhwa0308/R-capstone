@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">A Minimal Capstone Report Example</a></li>
+        <li><a href="./">학과별 취업 현황 분석 및 시각화</a></li>
       after: |
         <center><li>Foundations of Data Science at SMU Capastone Project Report</li></center>
 bookdown::pdf_book:
